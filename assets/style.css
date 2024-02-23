@@ -47,6 +47,11 @@ a:hover {
   text-decoration: none;
 }
 
+.links a:not(:last-child):after {
+  color: var(--color-base);
+  content: ',';
+}
+
 main {
   max-width: 1140px;
   margin: 0 auto;
